@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WEBDEV CREATION</title>
+    <!--This is my first time using github.So i can't upload file:)-->
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header{
+   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../assets/beach.jpg);
+   height: 100vh;
+   background-size: cover;  
+}
+ul{
+   float: right;
+   list-style-type: none;
+   margin-top: 25px;
+}
+ul li{
+   display: inline-block;
+}
+ul li a{
+   text-decoration: none;
+   padding: 5px 20px;
+   color: #fff;
+   border: 1px solid #fff;
+   transition: 0.6s ease;
+   border-radius: 20px;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+ul li a:hover{
+   background-color: #fff;
+   color: #000;
+}
+.title{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+.button{
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.btn{
+   border: 1px solid #fff;
+   padding: 10px 30px;
+   color: #fff;
+   text-decoration: none;
+   transition: 0.6s ease;
+   border-radius: 20px;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="main">
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="C:\Users\DELL\Desktop\beach\forminput.html">SIGN IN</a></li>
+                <li><a href="#">SIGN UP</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="title">
+            <h1>WEBDEV CREATION</h1>
+        </div>
+        <div class="button">
+             <a href="#" class="btn">WATCH VIDEO</a>
+             <a href="#" class="btn">LEARN MORE</a>
+        </div>
+    </header>
+</body>
+</html>
